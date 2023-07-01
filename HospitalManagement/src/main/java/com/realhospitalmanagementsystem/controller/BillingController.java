@@ -1,6 +1,6 @@
 package com.realhospitalmanagementsystem.controller;
 import com.realhospitalmanagementsystem.payload.BillingDTO;
-import com.realhospitalmanagementsystem.sevice.BillingService;
+import com.realhospitalmanagementsystem.service.BillingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
