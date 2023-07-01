@@ -1,6 +1,6 @@
 package com.realhospitalmanagementsystem.Controller;
 
-import com.realhospitalmanagementsystem.Exception.DepartmentNotFoundException;
+import com.realhospitalmanagementsystem.Exception.DoctorNotFoundException;
 import com.realhospitalmanagementsystem.Repository.DepartmentRepository;
 import com.realhospitalmanagementsystem.entity.Department;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,13 +32,13 @@ public class DepartmentController {
     @GetMapping("/{id}")
     public Department getDepartmentById(@PathVariable Long id) {
         return departmentRepository.findById(id)
-                .orElseThrow(() -> new DepartmentNotFoundException(id));
+                .orElseThrow(() -> new DoctorNotFoundException(id));
     }
 
     @PutMapping("/{id}")
     public ResponseEntity<Department> updateDepartment(@PathVariable Long id, @RequestBody Department updatedDepartment) {
         Department department = departmentRepository.findById(id)
-                .orElseThrow(() -> new DepartmentNotFoundException(id));
+                .orElseThrow(() -> new DoctorNotFoundException(id));
 
         department.setDoctorName(updatedDepartment.getDoctorName());
         department.setDepartment(updatedDepartment.getDepartment());
@@ -51,7 +51,7 @@ public class DepartmentController {
     @DeleteMapping("/{id}")
     public void deleteDepartment(@PathVariable Long id) {
         Department department = departmentRepository.findById(id)
-                .orElseThrow(() -> new DepartmentNotFoundException(id));
+                .orElseThrow(() -> new DoctorNotFoundException(id));
         departmentRepository.delete(department);
     }
 }
