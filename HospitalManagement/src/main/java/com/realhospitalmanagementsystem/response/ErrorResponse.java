@@ -1,4 +1,4 @@
-package com.realhospitalmanagementsystem.responce;
+package com.realhospitalmanagementsystem.response;
 
 public class ErrorResponse {
     private int status;
