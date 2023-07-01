@@ -1,3 +1,4 @@
+
 package com.realhospitalmanagementsystem.entity;
 
 import lombok.AllArgsConstructor;
