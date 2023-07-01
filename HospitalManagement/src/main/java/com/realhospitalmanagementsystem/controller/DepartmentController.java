@@ -1,6 +1,6 @@
 package com.realhospitalmanagementsystem.controller;
 
-import com.realhospitalmanagementsystem.Exception.DoctorNotFoundException;
+import com.realhospitalmanagementsystem.exception.DoctorNotFoundException;
 import com.realhospitalmanagementsystem.repository.DepartmentRepository;
 import com.realhospitalmanagementsystem.entity.Department;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.realhospitalmanagementsystem.Exception;
+package com.realhospitalmanagementsystem.exception;
 import com.realhospitalmanagementsystem.responce.ErrorResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

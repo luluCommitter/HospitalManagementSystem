@@ -1,4 +1,4 @@
-package com.realhospitalmanagementsystem.Exception;
+package com.realhospitalmanagementsystem.exception;
 
 public class DepartmentNotFoundException extends RuntimeException{
     public DepartmentNotFoundException(Long id) {
