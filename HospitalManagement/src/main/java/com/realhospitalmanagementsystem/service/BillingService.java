@@ -1,4 +1,4 @@
-package com.realhospitalmanagementsystem.sevice;
+package com.realhospitalmanagementsystem.service;
 
 import com.realhospitalmanagementsystem.payload.BillingDTO;
 import org.springframework.data.domain.Page;

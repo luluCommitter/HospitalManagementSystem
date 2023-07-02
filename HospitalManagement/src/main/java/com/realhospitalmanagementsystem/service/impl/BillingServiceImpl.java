@@ -1,11 +1,11 @@
-package com.realhospitalmanagementsystem.sevice.seviceImpl;
+package com.realhospitalmanagementsystem.service.impl;
 
 
 import com.realhospitalmanagementsystem.entity.Billing;
 import com.realhospitalmanagementsystem.exception.BillingNotFoundException;
 import com.realhospitalmanagementsystem.payload.BillingDTO;
 import com.realhospitalmanagementsystem.repository.BillingRepository;
-import com.realhospitalmanagementsystem.sevice.BillingService;
+import com.realhospitalmanagementsystem.service.BillingService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

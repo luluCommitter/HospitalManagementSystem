@@ -1,4 +1,4 @@
-package com.realhospitalmanagementsystem.Controller;
+package com.realhospitalmanagementsystem.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
