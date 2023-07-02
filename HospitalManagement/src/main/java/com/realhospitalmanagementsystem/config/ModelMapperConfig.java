@@ -1,4 +1,4 @@
-package com.realhospitalmanagementsystem.cofig;
+package com.realhospitalmanagementsystem.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

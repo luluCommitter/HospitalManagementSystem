@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-    @ExceptionHandler(BillingNotFoundException.class)
-    public ResponseEntity<ErrorResponse> handleBillingNotFoundException(BillingNotFoundException ex) {
+    @ExceptionHandler(com.realhospitalmanagementsystem.exception.BillingNotFoundException.class)
+    public ResponseEntity<ErrorResponse> handleBillingNotFoundException(com.realhospitalmanagementsystem.exception.BillingNotFoundException ex) {
         ErrorResponse errorResponse = new ErrorResponse(HttpStatus.NOT_FOUND.value(), ex.getMessage());
         return new ResponseEntity<>(errorResponse, HttpStatus.NOT_FOUND);
     }

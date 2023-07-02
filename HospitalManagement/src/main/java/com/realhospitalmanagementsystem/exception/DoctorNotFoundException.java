@@ -1,4 +1,4 @@
-package com.realhospitalmanagementsystem.Exception;
+package com.realhospitalmanagementsystem.exception;
 
 
 public class DoctorNotFoundException extends RuntimeException{
