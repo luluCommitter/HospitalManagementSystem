@@ -42,3 +42,5 @@ public class AccommodationController {
         accommodationService.deleteAccommodation(id);
     }
 }
+
+// hhjj
